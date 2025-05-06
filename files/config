@@ -1,0 +1,7 @@
+menu_item :main      :Pull      :nickel_wifi      :enable
+  chain_success                 :nickel_wifi      :autoconnect_silent
+  chain_success                 :cmd_spawn        :quiet :/mnt/onboard/.adds/onlinepull/sync.sh copy
+
+menu_item :main      :Sync      :nickel_wifi      :enable
+  chain_success                 :nickel_wifi      :autoconnect_silent
+  chain_success                 :cmd_spawn        :quiet :/mnt/onboard/.adds/onlinepull/sync.sh sync

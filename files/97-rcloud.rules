@@ -1,0 +1,2 @@
+KERNEL=="eth*", ACTION=="add", RUN+="/mnt/onboard/.adds/onlinepull/sync.sh copy"
+KERNEL=="wlan*", ACTION=="add", RUN+="/mnt/onboard/.adds/onlinepull/sync.sh copy"
