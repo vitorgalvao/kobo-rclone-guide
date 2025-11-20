@@ -43,7 +43,7 @@ Create a `/mnt/onboard/.adds/onlinepull` directory. Copy into it the assests you
 To trigger the sync script automatically whenever the Kobo connects to Wi-Fi, move the [accompanying Udev Rules](./files/97-rcloud.rules) to `/etc/udev/rules.d/97-rcloud.rules`.
 
 > [!NOTE]
-> `/etc/udev/rules.d` is inaccessible when connecting the Kobo to a computer; you’ll need to connect in a way that gives you access to its full file system. Telnet is recommended as the simplest way, but instructions on that fall outside the scope of this guide.
+> `/etc/udev/rules.d` is inaccessible when connecting the Kobo to a computer; you’ll need to connect in a way which gives you access to its full file system, such as SSH or Telnet, but instructions on that fall outside the scope of this guide.
 
 ## Usage
 
